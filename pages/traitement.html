@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFOAD - Traitement</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="container">
+<!-- En-tête avec logos -->
+<header class="container-fluid py-2 bg-light">
+    <div class="row align-items-center">
+        <div class="col-4 col-md-3">
+            <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 80px;">
+        </div>
+        <div class="col-4 col-md-6 text-center">
+            <h1 class="d-none d-md-block">Institut de Formation Ouverte A Distance</h1>
+            <h3 class="d-md-none">IFOAD</h3>
+        </div>
+        <div class="col-4 col-md-3 text-end">
+            <img src="../assets/images/logo-ujkz.jpg" alt="Logo UJKZ" class="img-fluid" style="max-height: 80px;">
+        </div>
+    </div>
+</header>
+
+<!-- Menu horizontal -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Accueil</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Historique
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="historique/ujkz.html">UJKZ</a></li>
+                        <li><a class="dropdown-item" href="historique/ifoad.html">IFOAD</a></li>
+                        <li><a class="dropdown-item" href="historique/licence-sia.html">Licence SIA</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Formation
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="formation/licence.html">Licence</a></li>
+                        <li><a class="dropdown-item" href="formation/master.html">Master</a></li>
+                        <li><a class="dropdown-item" href="formation/debouches.html">Débouchés</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="partenaires.html">Partenaires</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Documentation
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="documentation/licence.html">Licence</a></li>
+                        <li><a class="dropdown-item" href="documentation/master.html">Master</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Établissement UJKZ
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="etablissement-ujkz/sea.html">SEA</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/ibam.html">IBAM</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/issp.html">ISSP</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/igeed.html">IGEED</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/sh.html">SH</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/lac.html">LAC</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/svt.html">SVT</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/issdh.html">ISSDH</a></li>
+                        <li><a class="dropdown-item" href="etablissement-ujkz/sds.html">SDS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="traitement.html">Traitement</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Menu vertical -->
+        <div class="col-md-3 col-lg-2 bg-light p-0">
+            <nav class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                <ul class="navbar-nav flex-column w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html">Admission</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Programme
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="programme/licence1.html">Licence 1</a></li>
+                            <li><a class="dropdown-item" href="programme/licence2.html">Licence 2</a></li>
+                            <li><a class="dropdown-item" href="programme/licence3.html">Licence 3</a></li>
+                            <li><a class="dropdown-item" href="programme/master.html">Master</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Personnel
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="personnel/enseignants.html">Enseignants</a></li>
+                            <li><a class="dropdown-item" href="personnel/personnel-atos.html">Personnel ATOS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actualites.html">Actualités et informations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Date et universités -->
+            <div class="p-3 border-top">
+                <p class="mb-2">Date: <span id="current-date"></span></p>
+                <h6 class="mb-2">Universités publiques du Burkina Faso:</h6>
+                <ul class="list-unstyled small">
+                    <li>Université Joseph Ki-Zerbo (UJKZ)</li>
+                    <li>Université Nazi Boni (UNB)</li>
+                    <li>Université Norbert Zongo (UNZ)</li>
+                    <li>Université Thomas Sankara (UTS)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Contenu principal -->
+        <main class="col-md-9 col-lg-10 py-4">
+            <div class="container">
+                <h2 class="mb-4">Traitement de fonctions mathématiques</h2>
+                <p class="lead">Cette page vous permet de tester différentes fonctions mathématiques. Sélectionnez une fonction et entrez les paramètres requis pour obtenir le résultat.</p>
+
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h3>Calculateur de fonctions</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="math-form">
+                            <div class="mb-3">
+                                <label for="function-select" class="form-label">Sélectionnez une fonction:</label>
+                                <select class="form-select" id="function-select">
+                                    <option value="addition">Addition (a + b)</option>
+                                    <option value="soustraction">Soustraction (a - b)</option>
+                                    <option value="multiplication">Multiplication (a * b)</option>
+                                    <option value="division">Division (a / b)</option>
+                                    <option value="puissance">Puissance (a^b)</option>
+                                    <option value="racine">Racine carrée (√a)</option>
+                                    <option value="logarithme">Logarithme (log base 10 de a)</option>
+                                    <option value="sinus">Sinus (sin(a))</option>
+                                    <option value="cosinus">Cosinus (cos(a))</option>
+                                    <option value="tangente">Tangente (tan(a))</option>
+                                    <option value="factorielle">Factorielle (a!)</option>
+                                    <option value="pgcd">PGCD (a, b)</option>
+                                    <option value="ppcm">PPCM (a, b)</option>
+                                </select>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6" id="param-a-container">
+                                    <label for="param-a" class="form-label">Paramètre a:</label>
+                                    <input type="number" class="form-control" id="param-a" step="any" required>
+                                </div>
+                                <div class="col-md-6" id="param-b-container">
+                                    <label for="param-b" class="form-label">Paramètre b:</label>
+                                    <input type="number" class="form-control" id="param-b" step="any">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Calculer</button>
+                        </form>
+
+                        <div class="mt-4" id="result-container" style="display: none;">
+                            <div class="alert alert-success">
+                                <h4>Résultat:</h4>
+                                <p id="result-value" class="mb-0 fs-5"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h3>Informations sur les fonctions</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Voici quelques informations sur les fonctions disponibles:</p>
+
+                        <div class="accordion" id="accordionFunctions">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArithmetic">
+                                        Fonctions arithmétiques
+                                    </button>
+                                </h2>
+                                <div id="collapseArithmetic" class="accordion-collapse collapse" data-bs-parent="#accordionFunctions">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Addition:</strong> Calcule la somme de deux nombres (a + b).</li>
+                                            <li><strong>Soustraction:</strong> Calcule la différence entre deux nombres (a - b).</li>
+                                            <li><strong>Multiplication:</strong> Calcule le produit de deux nombres (a * b).</li>
+                                            <li><strong>Division:</strong> Calcule le quotient de deux nombres (a / b). Attention: b ne peut pas être égal à 0.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdvanced">
+                                        Fonctions avancées
+                                    </button>
+                                </h2>
+                                <div id="collapseAdvanced" class="accordion-collapse collapse" data-bs-parent="#accordionFunctions">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Puissance:</strong> Calcule a élevé à la puissance b (a^b).</li>
+                                            <li><strong>Racine carrée:</strong> Calcule la racine carrée de a (√a). Attention: a doit être positif ou nul.</li>
+                                            <li><strong>Logarithme:</strong> Calcule le logarithme en base 10 de a. Attention: a doit être strictement positif.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTrigonometric">
+                                        Fonctions trigonométriques
+                                    </button>
+                                </h2>
+                                <div id="collapseTrigonometric" class="accordion-collapse collapse" data-bs-parent="#accordionFunctions">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Sinus:</strong> Calcule le sinus de a (en radians).</li>
+                                            <li><strong>Cosinus:</strong> Calcule le cosinus de a (en radians).</li>
+                                            <li><strong>Tangente:</strong> Calcule la tangente de a (en radians).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNumber">
+                                        Théorie des nombres
+                                    </button>
+                                </h2>
+                                <div id="collapseNumber" class="accordion-collapse collapse" data-bs-parent="#accordionFunctions">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Factorielle:</strong> Calcule la factorielle de a (a!). Attention: a doit être un entier positif ou nul.</li>
+                                            <li><strong>PGCD:</strong> Calcule le Plus Grand Commun Diviseur de a et b. Les valeurs sont arrondies à l'entier le plus proche.</li>
+                                            <li><strong>PPCM:</strong> Calcule le Plus Petit Commun Multiple de a et b. Les valeurs sont arrondies à l'entier le plus proche.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
+</div>
+
+<!-- Pied de page -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>IFOAD</h5>
+                <p>Institut de Formation Ouverte A Distance<br>Université Joseph Ki-Zerbo</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Liens rapides</h5>
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="text-white">Accueil</a></li>
+                    <li><a href="formation/licence.html" class="text-white">Formations</a></li>
+                    <li><a href="contact.html" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <address>
+                    <p>Adresse: 03 BP 7021 Ouagadougou 03, Burkina Faso</p>
+                    <p>Email: ifoad@ujkz.bf</p>
+                    <p>Téléphone: +226 25 30 70 64</p>
+                </address>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <p>&copy; 2025 IFOAD - Tous droits réservés</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/scripts.js"></script>
+<script>
+    // Fonctions mathématiques
+    const mathFunctions = {
+        addition: (a, b) => a + b,
+        soustraction: (a, b) => a - b,
+        multiplication: (a, b) => a * b,
+        division: (a, b) => {
+            if (b === 0) throw new Error("Division par zéro impossible");
+            return a / b;
+        },
+        puissance: (a, b) => Math.pow(a, b),
+        racine: (a) => {
+            if (a < 0) throw new Error("La racine carrée d'un nombre négatif n'est pas définie dans les réels");
+            return Math.sqrt(a);
+        },
+        logarithme: (a) => {
+            if (a <= 0) throw new Error("Le logarithme n'est défini que pour les nombres strictement positifs");
+            return Math.log10(a);
+        },
+        sinus: (a) => Math.sin(a),
+        cosinus: (a) => Math.cos(a),
+        tangente: (a) => Math.tan(a),
+        factorielle: (a) => {
+            a = Math.round(a);
+            if (a < 0) throw new Error("La factorielle n'est définie que pour les entiers positifs ou nuls");
+            if (a === 0 || a === 1) return 1;
+            let result = 1;
+            for (let i = 2; i <= a; i++) {
+                result *= i;
+            }
+            return result;
+        },
+        pgcd: (a, b) => {
+            a = Math.round(Math.abs(a));
+            b = Math.round(Math.abs(b));
+            if (a === 0 && b === 0) throw new Error("Le PGCD de 0 et 0 n'est pas défini");
+            if (a === 0) return b;
+            if (b === 0) return a;
+            while (b !== 0) {
+                let t = b;
+                b = a % b;
+                a = t;
+            }
+            return a;
+        },
+        ppcm: (a, b) => {
+            a = Math.round(Math.abs(a));
+            b = Math.round(Math.abs(b));
+            if (a === 0 || b === 0) throw new Error("Le PPCM avec 0 n'est pas défini");
+            return (a * b) / mathFunctions.pgcd(a, b);
+        }
+    };
+
+    // Gestion du formulaire
+    document.addEventListener('DOMContentLoaded', function() {
+        const functionSelect = document.getElementById('function-select');
+        const paramAContainer = document.getElementById('param-a-container');
+        const paramBContainer = document.getElementById('param-b-container');
+        const paramA = document.getElementById('param-a');
+        const paramB = document.getElementById('param-b');
+        const mathForm = document.getElementById('math-form');
+        const resultContainer = document.getElementById('result-container');
+        const resultValue = document.getElementById('result-value');
+
+        // Mise à jour de l'affichage des paramètres en fonction de la fonction sélectionnée
+        functionSelect.addEventListener('change', function() {
+            const selectedFunction = functionSelect.value;
+
+            // Réinitialiser les champs
+            paramA.value = '';
+            paramB.value = '';
+            resultContainer.style.display = 'none';
+
+            // Afficher/masquer le paramètre B selon la fonction
+            if (['racine', 'logarithme', 'sinus', 'cosinus', 'tangente', 'factorielle'].includes(selectedFunction)) {
+                paramBContainer.style.display = 'none';
+                paramB.required = false;
+            } else {
+                paramBContainer.style.display = 'block';
+                paramB.required = true;
+            }
+
+            // Mettre à jour les labels selon la fonction
+            switch (selectedFunction) {
+                case 'racine':
+                    paramAContainer.querySelector('label').textContent = 'Nombre:';
+                    break;
+                case 'logarithme':
+                    paramAContainer.querySelector('label').textContent = 'Nombre:';
+                    break;
+                case 'sinus':
+                case 'cosinus':
+                case 'tangente':
+                    paramAContainer.querySelector('label').textContent = 'Angle (radians):';
+                    break;
+                case 'factorielle':
+                    paramAContainer.querySelector('label').textContent = 'Nombre:';
+                    break;
+                case 'pgcd':
+                case 'ppcm':
+                    paramAContainer.querySelector('label').textContent = 'Premier nombre:';
+                    paramBContainer.querySelector('label').textContent = 'Deuxième nombre:';
+                    break;
+                default:
+                    paramAContainer.querySelector('label').textContent = 'Paramètre a:';
+                    paramBContainer.querySelector('label').textContent = 'Paramètre b:';
+            }
+        });
+
+        // Traitement du formulaire
+        mathForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const selectedFunction = functionSelect.value;
+            const a = parseFloat(paramA.value);
+            const b = paramB.value ? parseFloat(paramB.value) : null;
+
+            try {
+                let result;
+
+                if (['racine', 'logarithme', 'sinus', 'cosinus', 'tangente', 'factorielle'].includes(selectedFunction)) {
+                    result = mathFunctions[selectedFunction](a);
+                } else {
+                    result = mathFunctions[selectedFunction](a, b);
+                }
+
+                // Afficher le résultat
+                resultValue.textContent = result;
+                resultContainer.style.display = 'block';
+                resultContainer.querySelector('.alert').className = 'alert alert-success';
+            } catch (error) {
+                // Afficher l'erreur
+                resultValue.textContent = `Erreur: ${error.message}`;
+                resultContainer.style.display = 'block';
+                resultContainer.querySelector('.alert').className = 'alert alert-danger';
+            }
+        });
+
+        // Initialiser l'affichage
+        functionSelect.dispatchEvent(new Event('change'));
+    });
+</script>
+</body>
+</html>

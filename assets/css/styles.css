@@ -1,0 +1,192 @@
+/* Styles généraux */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Styles pour l'en-tête */
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styles pour les menus */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Styles pour le menu vertical */
+.navbar-light .navbar-nav .nav-link {
+    color: #495057;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #e9ecef;
+}
+
+/* Styles pour les cartes */
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Styles pour le carousel */
+.carousel-item img {
+    filter: brightness(0.8);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/* Styles pour le pied de page */
+footer {
+    border-top: 1px solid #343a40;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les tableaux */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Styles pour les formulaires */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Styles pour les boutons */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Styles pour les liens */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+/* Styles pour les alertes */
+.alert {
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les badges */
+.badge {
+    font-weight: 500;
+}
+
+/* Styles pour les listes */
+ul.custom-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.custom-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+ul.custom-list li:last-child {
+    border-bottom: none;
+}
+
+/* Styles pour les images */
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles pour les breadcrumbs */
+.breadcrumb {
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les pagination */
+.pagination {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les tooltips */
+.tooltip {
+    font-size: 0.875rem;
+}
+
+/* Styles pour les modals */
+.modal-content {
+    border-radius: 0.3rem;
+}
+
+/* Styles pour les spinners */
+.spinner-border {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Styles pour les progress bars */
+.progress {
+    height: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Media queries pour la responsivité */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}

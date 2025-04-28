@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFOAD - Formation</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="container">
+    <!-- En-tête avec logos -->
+    <header class="container-fluid py-2 bg-light">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-3">
+                <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 col-md-6 text-center">
+                <h1 class="d-none d-md-block">Institut de Formation Ouverte A Distance</h1>
+                <h3 class="d-md-none">IFOAD</h3>
+            </div>
+            <div class="col-4 col-md-3 text-end">
+                <img src="../assets/images/logo-ujkz.jpg" alt="Logo UJKZ" class="img-fluid" style="max-height: 80px;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu horizontal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Historique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="historique.html#ujkz">UJKZ</a></li>
+                            <li><a class="dropdown-item" href="historique.html#ifoad">IFOAD</a></li>
+                            <li><a class="dropdown-item" href="historique.html#licence-sia">Licence SIA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Formation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#licence">Licence</a></li>
+                            <li><a class="dropdown-item" href="#master">Master</a></li>
+                            <li><a class="dropdown-item" href="#debouches">Débouchés</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partenaires.html">Partenaires</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Documentation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="documentation/licence.html">Licence</a></li>
+                            <li><a class="dropdown-item" href="documentation/master.html">Master</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Établissement UJKZ
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="etablissement.html#sea">SEA</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#ibam">IBAM</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#issp">ISSP</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#igeed">IGEED</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#sh">SH</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#lac">LAC</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#svt">SVT</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#issdh">ISSDH</a></li>
+                            <li><a class="dropdown-item" href="etablissement.html#sds">SDS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traitement.html">Traitement</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Menu vertical -->
+            <div class="col-md-3 col-lg-2 bg-light p-0">
+                <nav class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                    <ul class="navbar-nav flex-column w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admission.html">Admission</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Programme
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="programme.html#licence1">Licence 1</a></li>
+                                <li><a class="dropdown-item" href="programme.html#licence2">Licence 2</a></li>
+                                <li><a class="dropdown-item" href="programme.html#licence3">Licence 3</a></li>
+                                <li><a class="dropdown-item" href="programme.html#master">Master</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Personnel
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="personnel.html#enseignants">Enseignants</a></li>
+                                <li><a class="dropdown-item" href="personnel.html#personnel-atos">Personnel ATOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actualites.html">Actualités et informations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Date et universités -->
+                <div class="p-3 border-top">
+                    <p class="mb-2">Date: <span id="current-date"></span></p>
+                    <h6 class="mb-2">Universités publiques du Burkina Faso:</h6>
+                    <ul class="list-unstyled small">
+                        <li>Université Joseph Ki-Zerbo (UJKZ)</li>
+                        <li>Université Nazi Boni (UNB)</li>
+                        <li>Université Norbert Zongo (UNZ)</li>
+                        <li>Université Thomas Sankara (UTS)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <main class="col-md-9 col-lg-10 py-4">
+                <div class="container">
+                    <h2 class="mb-4">Formations à l'IFOAD</h2>
+
+                    <!-- Navigation interne -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <nav class="nav nav-pills nav-fill">
+                                <a class="nav-link" href="#licence">Licence</a>
+                                <a class="nav-link" href="#master">Master</a>
+                                <a class="nav-link" href="#debouches">Débouchés</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Licence -->
+                    <section id="licence" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3>Licence en Sciences Informatiques Appliquées (SIA)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row mb-4">
+                                    <div class="col-md-8">
+                                        <p class="lead">La Licence en Sciences Informatiques Appliquées (SIA) est une formation de trois ans qui vise à former des professionnels capables de concevoir, développer et maintenir des applications informatiques.</p>
+
+                                        <h4 class="mt-4">Présentation générale</h4>
+                                        <p>La Licence SIA est une formation complète qui couvre les aspects fondamentaux et appliqués de l'informatique. Elle est dispensée en mode hybride, combinant des cours en présentiel et à distance, permettant ainsi aux étudiants de suivre leur formation avec flexibilité.</p>
+
+                                        <h4 class="mt-4">Objectifs de la formation</h4>
+                                        <ul>
+                                            <li>Acquérir des connaissances solides en informatique théorique et appliquée</li>
+                                            <li>Maîtriser les langages de programmation et les outils de développement</li>
+                                            <li>Développer des compétences en conception et gestion de bases de données</li>
+                                            <li>Comprendre les principes des réseaux informatiques et de la sécurité</li>
+                                            <li>Acquérir des compétences en gestion de projets informatiques</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="Étudiants en licence" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Informations clés</h5>
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Durée:</strong> 3 ans (6 semestres)</li>
+                                                    <li><strong>Crédits:</strong> 180 ECTS</li>
+                                                    <li><strong>Langue:</strong> Français</li>
+                                                    <li><strong>Mode:</strong> Hybride (présentiel et à distance)</li>
+                                                    <li><strong>Admission:</strong> Baccalauréat ou équivalent</li>
+                                                    <li><strong>Rentrée:</strong> Octobre</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Structure de la formation</h4>
+                                <p>La Licence SIA est organisée en six semestres, chacun comprenant plusieurs unités d'enseignement (UE). Le programme est structuré de manière progressive, permettant aux étudiants d'acquérir d'abord les bases fondamentales avant d'aborder des concepts plus avancés.</p>
+
+                                <div class="accordion mt-3" id="accordionLicence">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLicence1">
+                                                Licence 1 - Fondamentaux de l'informatique
+                                            </button>
+                                        </h2>
+                                        <div id="collapseLicence1" class="accordion-collapse collapse" data-bs-parent="#accordionLicence">
+                                            <div class="accordion-body">
+                                                <p>La première année est consacrée à l'acquisition des connaissances fondamentales en informatique et en mathématiques.</p>
+                                                <ul>
+                                                    <li>Introduction à l'informatique</li>
+                                                    <li>Algorithmique et programmation</li>
+                                                    <li>Mathématiques discrètes</li>
+                                                    <li>Algèbre linéaire</li>
+                                                    <li>Architecture des ordinateurs</li>
+                                                    <li>Introduction aux bases de données</li>
+                                                    <li>Anglais technique</li>
+                                                </ul>
+                                                <p><a href="programme.html#licence1" class="btn btn-sm btn-outline-primary">Voir le programme détaillé</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLicence2">
+                                                Licence 2 - Approfondissement et spécialisation
+                                            </button>
+                                        </h2>
+                                        <div id="collapseLicence2" class="accordion-collapse collapse" data-bs-parent="#accordionLicence">
+                                            <div class="accordion-body">
+                                                <p>La deuxième année approfondit les connaissances acquises en première année et introduit des concepts plus avancés.</p>
+                                                <ul>
+                                                    <li>Programmation orientée objet</li>
+                                                    <li>Systèmes d'exploitation</li>
+                                                    <li>Bases de données relationnelles</li>
+                                                    <li>Réseaux informatiques</li>
+                                                    <li>Développement Web</li>
+                                                    <li>Introduction au génie logiciel</li>
+                                                    <li>Sécurité informatique</li>
+                                                </ul>
+                                                <p><a href="programme.html#licence2" class="btn btn-sm btn-outline-primary">Voir le programme détaillé</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLicence3">
+                                                Licence 3 - Professionnalisation
+                                            </button>
+                                        </h2>
+                                        <div id="collapseLicence3" class="accordion-collapse collapse" data-bs-parent="#accordionLicence">
+                                            <div class="accordion-body">
+                                                <p>La troisième année finalise le cycle de licence et prépare les étudiants à l'insertion professionnelle ou à la poursuite d'études en master.</p>
+                                                <ul>
+                                                    <li>Développement d'applications mobiles</li>
+                                                    <li>Intelligence artificielle</li>
+                                                    <li>Génie logiciel avancé</li>
+                                                    <li>Systèmes distribués</li>
+                                                    <li>Sécurité des systèmes d'information</li>
+                                                    <li>Gestion de projets informatiques</li>
+                                                    <li>Stage professionnel ou mémoire</li>
+                                                </ul>
+                                                <p><a href="programme.html#licence3" class="btn btn-sm btn-outline-primary">Voir le programme détaillé</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Modalités d'enseignement</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Enseignement à distance</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li>Cours en ligne sur la plateforme d'apprentissage</li>
+                                                    <li>Ressources pédagogiques numériques</li>
+                                                    <li>Classes virtuelles interactives</li>
+                                                    <li>Forums de discussion</li>
+                                                    <li>Tutorat en ligne</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Enseignement en présentiel</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li>Regroupements périodiques sur le campus</li>
+                                                    <li>Travaux pratiques en laboratoire</li>
+                                                    <li>Séances de révision</li>
+                                                    <li>Examens sur table</li>
+                                                    <li>Soutenances de projets et de mémoires</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Conditions d'admission</h4>
+                                <p>Pour être admis en Licence SIA, les candidats doivent :</p>
+                                <ul>
+                                    <li>Être titulaire d'un baccalauréat scientifique ou technique (séries C, D, E, F2, F3) ou équivalent</li>
+                                    <li>Avoir un bon niveau en mathématiques</li>
+                                    <li>Posséder des connaissances de base en informatique</li>
+                                    <li>Maîtriser le français (niveau B2 minimum)</li>
+                                </ul>
+
+                                <div class="text-end mt-3">
+                                    <a href="admission.html" class="btn btn-primary">Procédure d'admission</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Master -->
+                    <section id="master" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h3>Master en Informatique</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row mb-4">
+                                    <div class="col-md-8">
+                                        <p class="lead">Le Master en Informatique est une formation de haut niveau qui prépare les étudiants à des postes à responsabilité dans le domaine de l'informatique ou à la poursuite d'études doctorales.</p>
+
+                                        <h4 class="mt-4">Présentation générale</h4>
+                                        <p>Le Master en Informatique de l'IFOAD offre une formation approfondie dans plusieurs domaines de spécialisation. Il est conçu pour développer des compétences avancées en conception, développement et gestion de systèmes informatiques complexes.</p>
+
+                                        <h4 class="mt-4">Objectifs de la formation</h4>
+                                        <ul>
+                                            <li>Approfondir les connaissances théoriques et pratiques en informatique</li>
+                                            <li>Développer des compétences spécialisées dans un domaine de l'informatique</li>
+                                            <li>Acquérir des méthodes de recherche et d'innovation</li>
+                                            <li>Maîtriser la gestion de projets informatiques complexes</li>
+                                            <li>Développer des capacités d'analyse, de synthèse et de communication</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="Étudiants en master" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Informations clés</h5>
+                                                <ul class="list-unstyled">
+                                                    <li><strong>Durée:</strong> 2 ans (4 semestres)</li>
+                                                    <li><strong>Crédits:</strong> 120 ECTS</li>
+                                                    <li><strong>Langue:</strong> Français</li>
+                                                    <li><strong>Mode:</strong> Hybride (présentiel et à distance)</li>
+                                                    <li><strong>Admission:</strong> Licence en informatique ou équivalent</li>
+                                                    <li><strong>Rentrée:</strong> Octobre</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Spécialisations disponibles</h4>
+                                <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Génie Logiciel et Systèmes d'Information</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en conception et développement de logiciels complexes et de systèmes d'information.</p>
+                                                <h6>Compétences développées:</h6>
+                                                <ul>
+                                                    <li>Conception et architecture logicielle</li>
+                                                    <li>Méthodes formelles</li>
+                                                    <li>Ingénierie des systèmes d'information</li>
+                                                    <li>Qualité logicielle</li>
+                                                    <li>Gestion de projets agiles</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Intelligence Artificielle et Science des Données</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en apprentissage automatique, traitement du langage naturel et analyse de données massives.</p>
+                                                <h6>Compétences développées:</h6>
+                                                <ul>
+                                                    <li>Apprentissage automatique</li>
+                                                    <li>Deep Learning</li>
+                                                    <li>Traitement du langage naturel</li>
+                                                    <li>Analyse de données massives</li>
+                                                    <li>Visualisation de données</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Réseaux et Sécurité Informatique</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en conception et sécurisation des infrastructures réseau et des systèmes d'information.</p>
+                                                <h6>Compétences développées:</h6>
+                                                <ul>
+                                                    <li>Architectures réseau avancées</li>
+                                                    <li>Cybersécurité</li>
+                                                    <li>Cryptographie</li>
+                                                    <li>Audit de sécurité</li>
+                                                    <li>Gestion des incidents</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Informatique Mobile et Embarquée</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en développement d'applications mobiles et de systèmes embarqués.</p>
+                                                <h6>Compétences développées:</h6>
+                                                <ul>
+                                                    <li>Développement mobile multiplateforme</li>
+                                                    <li>Internet des objets (IoT)</li>
+                                                    <li>Systèmes temps réel</li>
+                                                    <li>Programmation embarquée</li>
+                                                    <li>Interfaces homme-machine</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Structure de la formation</h4>
+                                <p>Le Master se déroule sur quatre semestres :</p>
+
+                                <div class="accordion mt-3" id="accordionMaster">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMaster1">
+                                                Master 1 - Semestres 1 et 2
+                                            </button>
+                                        </h2>
+                                        <div id="collapseMaster1" class="accordion-collapse collapse" data-bs-parent="#accordionMaster">
+                                            <div class="accordion-body">
+                                                <p>La première année de Master est consacrée à l'acquisition de connaissances avancées en informatique et à l'introduction aux domaines de spécialisation.</p>
+                                                <ul>
+                                                    <li>Algorithmique avancée</li>
+                                                    <li>Ingénierie des systèmes d'information</li>
+                                                    <li>Méthodes formelles</li>
+                                                    <li>Programmation parallèle et distribuée</li>
+                                                    <li>Méthodologie de recherche</li>
+                                                    <li>Cours de spécialisation</li>
+                                                    <li>Projet de recherche</li>
+                                                </ul>
+                                                <p><a href="programme.html#master" class="btn btn-sm btn-outline-success">Voir le programme détaillé</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMaster2">
+                                                Master 2 - Semestres 3 et 4
+                                            </button>
+                                        </h2>
+                                        <div id="collapseMaster2" class="accordion-collapse collapse" data-bs-parent="#accordionMaster">
+                                            <div class="accordion-body">
+                                                <p>La deuxième année de Master est principalement consacrée à la spécialisation et à la réalisation d'un mémoire de recherche ou d'un stage professionnel.</p>
+                                                <ul>
+                                                    <li>Cours avancés de spécialisation</li>
+                                                    <li>Séminaires de recherche</li>
+                                                    <li>Entrepreneuriat et innovation</li>
+                                                    <li>Stage de recherche ou professionnel (6 mois)</li>
+                                                    <li>Mémoire et soutenance</li>
+                                                </ul>
+                                                <p><a href="programme.html#master" class="btn btn-sm btn-outline-success">Voir le programme détaillé</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Conditions d'admission</h4>
+                                <p>Pour être admis en Master Informatique, les candidats doivent :</p>
+                                <ul>
+                                    <li>Être titulaire d'une Licence en informatique ou dans un domaine connexe</li>
+                                    <li>Avoir un bon dossier académique</li>
+                                    <li>Maîtriser le français (niveau B2 minimum)</li>
+                                    <li>Avoir des connaissances en anglais technique</li>
+                                </ul>
+                                <p>L'admission se fait sur dossier et peut inclure un entretien avec un jury.</p>
+
+                                <div class="text-end mt-3">
+                                    <a href="admission.html" class="btn btn-success">Procédure d'admission</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Débouchés -->
+                    <section id="debouches" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h3>Débouchés professionnels</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">Les formations en informatique de l'IFOAD ouvrent de nombreuses perspectives professionnelles dans un secteur en constante évolution et à forte demande.</p>
+
+                                <h4 class="mt-4">Secteurs d'activité</h4>
+                                <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/img.png" class="card-img-top" alt="Entreprises de services numériques" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Entreprises de services numériques</h5>
+                                                <p class="card-text">Sociétés de conseil, SSII, agences web, start-ups technologiques</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/img.png" class="card-img-top" alt="Secteur public" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Secteur public</h5>
+                                                <p class="card-text">Administrations, collectivités, établissements d'enseignement et de recherche</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/img.png" class="card-img-top" alt="Entreprises privées" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Entreprises privées</h5>
+                                                <p class="card-text">Banques, assurances, télécommunications, industrie, santé, transport</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Métiers après une Licence</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Métier</th>
+                                                <th>Description</th>
+                                                <th>Compétences requises</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Développeur web</td>
+                                                <td>Conception et développement de sites et applications web</td>
+                                                <td>HTML, CSS, JavaScript, PHP, frameworks web</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Développeur d'applications</td>
+                                                <td>Conception et développement d'applications métier</td>
+                                                <td>Java, C#, Python, bases de données</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Technicien réseau</td>
+                                                <td>Installation et maintenance des infrastructures réseau</td>
+                                                <td>Protocoles réseau, sécurité, matériel réseau</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Administrateur de bases de données</td>
+                                                <td>Gestion et optimisation des bases de données</td>
+                                                <td>SQL, SGBD, modélisation de données</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Technicien support</td>
+                                                <td>Assistance aux utilisateurs et résolution de problèmes</td>
+                                                <td>Systèmes d'exploitation, matériel, logiciels</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Métiers après un Master</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Métier</th>
+                                                <th>Description</th>
+                                                <th>Compétences requises</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Ingénieur logiciel</td>
+                                                <td>Conception et développement de logiciels complexes</td>
+                                                <td>Architecture logicielle, méthodes agiles, tests</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Architecte SI</td>
+                                                <td>Conception de l'architecture des systèmes d'information</td>
+                                                <td>Modélisation, intégration, urbanisation</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Data Scientist</td>
+                                                <td>Analyse et valorisation des données massives</td>
+                                                <td>Statistiques, machine learning, visualisation</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Expert en cybersécurité</td>
+                                                <td>Protection des systèmes d'information</td>
+                                                <td>Sécurité réseau, cryptographie, audit</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chef de projet informatique</td>
+                                                <td>Pilotage de projets de développement</td>
+                                                <td>Gestion de projet, management, budget</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Enseignant-chercheur</td>
+                                                <td>Enseignement et recherche en informatique</td>
+                                                <td>Doctorat, publications, pédagogie</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Poursuite d'études</h4>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Après la Licence</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li>Master en Informatique à l'IFOAD</li>
+                                                    <li>Masters spécialisés dans d'autres établissements</li>
+                                                    <li>Écoles d'ingénieurs (sur concours ou dossier)</li>
+                                                    <li>Formations professionnelles certifiantes</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Après le Master</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li>Doctorat en Informatique</li>
+                                                    <li>Mastères spécialisés</li>
+                                                    <li>MBA spécialisés en management des systèmes d'information</li>
+                                                    <li>Certifications professionnelles (CISCO, Microsoft, Oracle, etc.)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Témoignages d'anciens étudiants</h4>
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-body">
+                                                <div class="d-flex mb-3">
+                                                    <img src="/assets/images/img.png" alt="Témoignage" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                                                    <div>
+                                                        <h5 class="card-title mb-0">Aminata KONÉ</h5>
+                                                        <p class="text-muted">Promotion 2022, Licence SIA</p>
+                                                    </div>
+                                                </div>
+                                                <p class="card-text">"La formation à l'IFOAD m'a permis d'acquérir des compétences solides en développement web. Grâce à l'alternance entre cours à distance et sessions pratiques, j'ai pu concilier mes études avec mon travail. Aujourd'hui, je suis développeuse web dans une start-up à Ouagadougou."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="card-body">
+                                                <div class="d-flex mb-3">
+                                                    <img src="/assets/images/img.png" alt="Témoignage" class="rounded-circle me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                                                    <div>
+                                                        <h5 class="card-title mb-0">Ibrahim OUÉDRAOGO</h5>
+                                                        <p class="text-muted">Promotion 2021, Master Informatique</p>
+                                                    </div>
+                                                </div>
+                                                <p class="card-text">"Le Master en Informatique de l'IFOAD m'a ouvert les portes de la recherche. J'ai pu approfondir mes connaissances en intelligence artificielle et réaliser un stage dans un laboratoire renommé. Je poursuis actuellement un doctorat à l'Université de Montréal grâce aux partenariats de l'IFOAD."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>IFOAD</h5>
+                    <p>Institut de Formation Ouverte A Distance<br>Université Joseph Ki-Zerbo</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-white">Accueil</a></li>
+                        <li><a href="formation.html" class="text-white">Formations</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <address>
+                        <p>Adresse: 03 BP 7021 Ouagadougou 03, Burkina Faso</p>
+                        <p>Email: ifoad@ujkz.bf</p>
+                        <p>Téléphone: +226 25 30 70 64</p>
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 IFOAD - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <script>
+        // Activer le scrollspy pour la navigation interne
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ajouter la classe active au lien correspondant à la section visible
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', function() {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+$primary: #C8061F;
+$container-max-widths: (
+    sm: 600px,
+    md: 800px,
+    lg: 1000px,
+    xl: 1200px,
+    xxl: 1900px
+);
+@import "bootstrap/bootstrap.scss";

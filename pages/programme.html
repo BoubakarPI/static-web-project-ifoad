@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFOAD - Programme</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="container">
+    <!-- En-tête avec logos -->
+    <header class="container-fluid py-2 bg-light">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-3">
+                <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 col-md-6 text-center">
+                <h1 class="d-none d-md-block">Institut de Formation Ouverte A Distance</h1>
+                <h3 class="d-md-none">IFOAD</h3>
+            </div>
+            <div class="col-4 col-md-3 text-end">
+                <img src="../assets/images/logo-ujkz.jpg" alt="Logo UJKZ" class="img-fluid" style="max-height: 80px;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu horizontal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Historique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="historique.html#ujkz">UJKZ</a></li>
+                            <li><a class="dropdown-item" href="historique.html#ifoad">IFOAD</a></li>
+                            <li><a class="dropdown-item" href="historique.html#licence-sia">Licence SIA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Formation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="formation.html#licence">Licence</a></li>
+                            <li><a class="dropdown-item" href="formation.html#master">Master</a></li>
+                            <li><a class="dropdown-item" href="formation.html#debouches">Débouchés</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partenaires.html">Partenaires</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Documentation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="documentation/licence.html">Licence</a></li>
+                            <li><a class="dropdown-item" href="documentation/master.html">Master</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Établissement UJKZ
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="etablissement-ujkz/sea.html">SEA</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/ibam.html">IBAM</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/issp.html">ISSP</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/igeed.html">IGEED</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/sh.html">SH</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/lac.html">LAC</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/svt.html">SVT</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/issdh.html">ISSDH</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/sds.html">SDS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traitement.html">Traitement</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Menu vertical -->
+            <div class="col-md-3 col-lg-2 bg-light p-0">
+                <nav class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                    <ul class="navbar-nav flex-column w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admission.html">Admission</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Programme
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#licence1">Licence 1</a></li>
+                                <li><a class="dropdown-item" href="#licence2">Licence 2</a></li>
+                                <li><a class="dropdown-item" href="#licence3">Licence 3</a></li>
+                                <li><a class="dropdown-item" href="#master">Master</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Personnel
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="personnel.html#enseignants">Enseignants</a></li>
+                                <li><a class="dropdown-item" href="personnel.html#personnel-atos">Personnel ATOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actualites.html">Actualités et informations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Date et universités -->
+                <div class="p-3 border-top">
+                    <p class="mb-2">Date: <span id="current-date"></span></p>
+                    <h6 class="mb-2">Universités publiques du Burkina Faso:</h6>
+                    <ul class="list-unstyled small">
+                        <li>Université Joseph Ki-Zerbo (UJKZ)</li>
+                        <li>Université Nazi Boni (UNB)</li>
+                        <li>Université Norbert Zongo (UNZ)</li>
+                        <li>Université Thomas Sankara (UTS)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <main class="col-md-9 col-lg-10 py-4">
+                <div class="container">
+                    <h2 class="mb-4">Programmes de formation</h2>
+
+                    <!-- Navigation interne -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <nav class="nav nav-pills nav-fill">
+                                <a class="nav-link" href="#licence1">Licence 1</a>
+                                <a class="nav-link" href="#licence2">Licence 2</a>
+                                <a class="nav-link" href="#licence3">Licence 3</a>
+                                <a class="nav-link" href="#master">Master</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Licence 1 -->
+                    <section id="licence1" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3>Programme de Licence 1</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">Le programme de Licence 1 en Sciences Informatiques Appliquées (SIA) vise à donner aux étudiants les bases fondamentales en informatique et en mathématiques.</p>
+
+                                <h4 class="mt-4">Objectifs de la formation</h4>
+                                <ul>
+                                    <li>Acquérir les connaissances fondamentales en informatique</li>
+                                    <li>Maîtriser les bases de la programmation</li>
+                                    <li>Comprendre les concepts mathématiques nécessaires à l'informatique</li>
+                                    <li>Développer des compétences en résolution de problèmes</li>
+                                </ul>
+
+                                <h4 class="mt-4">Unités d'enseignement</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="table-primary">
+                                            <tr>
+                                                <th>Semestre</th>
+                                                <th>Code UE</th>
+                                                <th>Intitulé</th>
+                                                <th>Crédits</th>
+                                                <th>Volume horaire</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Semestre 1 -->
+                                            <tr>
+                                                <td rowspan="6">Semestre 1</td>
+                                                <td>INF1101</td>
+                                                <td>Introduction à l'informatique</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF1102</td>
+                                                <td>Algorithmique et programmation I</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MAT1101</td>
+                                                <td>Mathématiques discrètes</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MAT1102</td>
+                                                <td>Algèbre linéaire</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ANG1101</td>
+                                                <td>Anglais technique I</td>
+                                                <td>3</td>
+                                                <td>30h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>COM1101</td>
+                                                <td>Techniques de communication</td>
+                                                <td>3</td>
+                                                <td>30h</td>
+                                            </tr>
+
+                                            <!-- Semestre 2 -->
+                                            <tr>
+                                                <td rowspan="6">Semestre 2</td>
+                                                <td>INF1201</td>
+                                                <td>Architecture des ordinateurs</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF1202</td>
+                                                <td>Algorithmique et programmation II</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF1203</td>
+                                                <td>Introduction aux bases de données</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MAT1201</td>
+                                                <td>Analyse mathématique</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ANG1201</td>
+                                                <td>Anglais technique II</td>
+                                                <td>3</td>
+                                                <td>30h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>STA1201</td>
+                                                <td>Statistiques descriptives</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Modalités d'évaluation</h4>
+                                <p>L'évaluation des connaissances se fait par :</p>
+                                <ul>
+                                    <li>Contrôles continus (40% de la note finale)</li>
+                                    <li>Examens finaux (60% de la note finale)</li>
+                                    <li>Travaux pratiques et projets</li>
+                                </ul>
+
+                                <div class="text-end mt-3">
+                                    <a href="#" class="btn btn-outline-primary">Télécharger le programme complet (PDF)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Licence 2 -->
+                    <section id="licence2" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h3>Programme de Licence 2</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">Le programme de Licence 2 en Sciences Informatiques Appliquées (SIA) approfondit les connaissances acquises en première année et introduit des concepts plus avancés.</p>
+
+                                <h4 class="mt-4">Objectifs de la formation</h4>
+                                <ul>
+                                    <li>Approfondir les connaissances en programmation</li>
+                                    <li>Maîtriser les concepts de bases de données</li>
+                                    <li>Comprendre les principes des réseaux informatiques</li>
+                                    <li>S'initier au génie logiciel</li>
+                                </ul>
+
+                                <h4 class="mt-4">Unités d'enseignement</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="table-success">
+                                            <tr>
+                                                <th>Semestre</th>
+                                                <th>Code UE</th>
+                                                <th>Intitulé</th>
+                                                <th>Crédits</th>
+                                                <th>Volume horaire</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Semestre 3 -->
+                                            <tr>
+                                                <td rowspan="6">Semestre 3</td>
+                                                <td>INF2101</td>
+                                                <td>Programmation orientée objet I</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2102</td>
+                                                <td>Systèmes d'exploitation</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2103</td>
+                                                <td>Bases de données relationnelles</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2104</td>
+                                                <td>Introduction aux réseaux</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MAT2101</td>
+                                                <td>Probabilités et statistiques</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ANG2101</td>
+                                                <td>Anglais professionnel</td>
+                                                <td>3</td>
+                                                <td>30h</td>
+                                            </tr>
+
+                                            <!-- Semestre 4 -->
+                                            <tr>
+                                                <td rowspan="6">Semestre 4</td>
+                                                <td>INF2201</td>
+                                                <td>Programmation orientée objet II</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2202</td>
+                                                <td>Développement Web</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2203</td>
+                                                <td>Introduction au génie logiciel</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2204</td>
+                                                <td>Réseaux et protocoles</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF2205</td>
+                                                <td>Sécurité informatique</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PRO2201</td>
+                                                <td>Projet tutoré</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Modalités d'évaluation</h4>
+                                <p>L'évaluation des connaissances se fait par :</p>
+                                <ul>
+                                    <li>Contrôles continus (40% de la note finale)</li>
+                                    <li>Examens finaux (60% de la note finale)</li>
+                                    <li>Travaux pratiques et projets</li>
+                                    <li>Projet tutoré avec soutenance</li>
+                                </ul>
+
+                                <div class="text-end mt-3">
+                                    <a href="#" class="btn btn-outline-success">Télécharger le programme complet (PDF)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Licence 3 -->
+                    <section id="licence3" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h3>Programme de Licence 3</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">Le programme de Licence 3 en Sciences Informatiques Appliquées (SIA) finalise le cycle de licence et prépare les étudiants à l'insertion professionnelle ou à la poursuite d'études en master.</p>
+
+                                <h4 class="mt-4">Objectifs de la formation</h4>
+                                <ul>
+                                    <li>Maîtriser les technologies avancées de développement</li>
+                                    <li>Acquérir des compétences en gestion de projets informatiques</li>
+                                    <li>Développer des applications complexes</li>
+                                    <li>S'initier à la recherche en informatique</li>
+                                </ul>
+
+                                <h4 class="mt-4">Unités d'enseignement</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="table-info">
+                                            <tr>
+                                                <th>Semestre</th>
+                                                <th>Code UE</th>
+                                                <th>Intitulé</th>
+                                                <th>Crédits</th>
+                                                <th>Volume horaire</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Semestre 5 -->
+                                            <tr>
+                                                <td rowspan="6">Semestre 5</td>
+                                                <td>INF3101</td>
+                                                <td>Développement d'applications mobiles</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF3102</td>
+                                                <td>Intelligence artificielle</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF3103</td>
+                                                <td>Génie logiciel avancé</td>
+                                                <td>5</td>
+                                                <td>50h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF3104</td>
+                                                <td>Systèmes distribués</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF3105</td>
+                                                <td>Sécurité des systèmes d'information</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>GES3101</td>
+                                                <td>Gestion de projets informatiques</td>
+                                                <td>3</td>
+                                                <td>30h</td>
+                                            </tr>
+
+                                            <!-- Semestre 6 -->
+                                            <tr>
+                                                <td rowspan="3">Semestre 6</td>
+                                                <td>INF3201</td>
+                                                <td>Méthodes agiles</td>
+                                                <td>4</td>
+                                                <td>40h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>DRO3201</td>
+                                                <td>Droit et éthique de l'informatique</td>
+                                                <td>3</td>
+                                                <td>30h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>STA3201</td>
+                                                <td>Stage professionnel / Mémoire</td>
+                                                <td>18</td>
+                                                <td>180h</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Modalités d'évaluation</h4>
+                                <p>L'évaluation des connaissances se fait par :</p>
+                                <ul>
+                                    <li>Contrôles continus (40% de la note finale)</li>
+                                    <li>Examens finaux (60% de la note finale)</li>
+                                    <li>Travaux pratiques et projets</li>
+                                    <li>Stage professionnel ou mémoire avec soutenance</li>
+                                </ul>
+
+                                <div class="text-end mt-3">
+                                    <a href="#" class="btn btn-outline-info">Télécharger le programme complet (PDF)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Master -->
+                    <section id="master" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-warning">
+                                <h3>Programme de Master</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">Le programme de Master en Informatique offre une spécialisation dans plusieurs domaines de pointe et prépare les étudiants à la recherche ou à des postes à haute responsabilité.</p>
+
+                                <h4 class="mt-4">Spécialisations disponibles</h4>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Génie Logiciel et Systèmes d'Information</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en conception et développement de logiciels complexes et de systèmes d'information.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Intelligence Artificielle et Science des Données</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en apprentissage automatique, traitement du langage naturel et analyse de données massives.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Réseaux et Sécurité Informatique</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en conception et sécurisation des infrastructures réseau et des systèmes d'information.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="card h-100">
+                                            <div class="card-header bg-light">
+                                                <h5>Informatique Mobile et Embarquée</h5>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>Cette spécialisation forme des experts en développement d'applications mobiles et de systèmes embarqués.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Structure du programme</h4>
+                                <p>Le Master se déroule sur 4 semestres (2 ans) :</p>
+                                <ul>
+                                    <li><strong>Semestres 1 et 2 :</strong> Cours fondamentaux et spécialisés</li>
+                                    <li><strong>Semestre 3 :</strong> Cours avancés et initiation à la recherche</li>
+                                    <li><strong>Semestre 4 :</strong> Stage de recherche ou professionnel et mémoire</li>
+                                </ul>
+
+                                <h4 class="mt-4">Exemples d'unités d'enseignement (Master 1)</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead class="table-warning">
+                                            <tr>
+                                                <th>Semestre</th>
+                                                <th>Code UE</th>
+                                                <th>Intitulé</th>
+                                                <th>Crédits</th>
+                                                <th>Volume horaire</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- Semestre 1 -->
+                                            <tr>
+                                                <td rowspan="5">Semestre 1</td>
+                                                <td>INF4101</td>
+                                                <td>Algorithmique avancée</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF4102</td>
+                                                <td>Ingénierie des systèmes d'information</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF4103</td>
+                                                <td>Méthodes formelles</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>INF4104</td>
+                                                <td>Programmation parallèle et distribuée</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                            <tr>
+                                                <td>REC4101</td>
+                                                <td>Méthodologie de recherche</td>
+                                                <td>6</td>
+                                                <td>60h</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Débouchés</h4>
+                                <p>Les diplômés du Master en Informatique peuvent poursuivre leur carrière dans :</p>
+                                <ul>
+                                    <li>La recherche académique (doctorat)</li>
+                                    <li>Les entreprises de développement logiciel</li>
+                                    <li>Les départements informatiques des grandes entreprises</li>
+                                    <li>Les cabinets de conseil en informatique</li>
+                                    <li>L'entrepreneuriat (création de start-up)</li>
+                                </ul>
+
+                                <div class="text-end mt-3">
+                                    <a href="#" class="btn btn-outline-warning">Télécharger le programme complet (PDF)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>IFOAD</h5>
+                    <p>Institut de Formation Ouverte A Distance<br>Université Joseph Ki-Zerbo</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-white">Accueil</a></li>
+                        <li><a href="formation.html" class="text-white">Formations</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <address>
+                        <p>Adresse: 03 BP 7021 Ouagadougou 03, Burkina Faso</p>
+                        <p>Email: ifoad@ujkz.bf</p>
+                        <p>Téléphone: +226 25 30 70 64</p>
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 IFOAD - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <script>
+        // Activer le scrollspy pour la navigation interne
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ajouter la classe active au lien correspondant à la section visible
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', function() {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

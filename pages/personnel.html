@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFOAD - Personnel</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="container">
+    <!-- En-tête avec logos -->
+    <header class="container-fluid py-2 bg-light">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-3">
+                <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 col-md-6 text-center">
+                <h1 class="d-none d-md-block">Institut de Formation Ouverte A Distance</h1>
+                <h3 class="d-md-none">IFOAD</h3>
+            </div>
+            <div class="col-4 col-md-3 text-end">
+                <img src="../assets/images/logo-ujkz.jpg" alt="Logo UJKZ" class="img-fluid" style="max-height: 80px;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu horizontal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Historique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="historique.html#ujkz">UJKZ</a></li>
+                            <li><a class="dropdown-item" href="historique.html#ifoad">IFOAD</a></li>
+                            <li><a class="dropdown-item" href="historique.html#licence-sia">Licence SIA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Formation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="formation.html#licence">Licence</a></li>
+                            <li><a class="dropdown-item" href="formation.html#master">Master</a></li>
+                            <li><a class="dropdown-item" href="formation.html#debouches">Débouchés</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partenaires.html">Partenaires</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Documentation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="documentation/licence.html">Licence</a></li>
+                            <li><a class="dropdown-item" href="documentation/master.html">Master</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Établissement UJKZ
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="etablissement-ujkz/sea.html">SEA</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/ibam.html">IBAM</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/issp.html">ISSP</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/igeed.html">IGEED</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/sh.html">SH</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/lac.html">LAC</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/svt.html">SVT</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/issdh.html">ISSDH</a></li>
+                            <li><a class="dropdown-item" href="etablissement-ujkz/sds.html">SDS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traitement.html">Traitement</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Menu vertical -->
+            <div class="col-md-3 col-lg-2 bg-light p-0">
+                <nav class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                    <ul class="navbar-nav flex-column w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admission.html">Admission</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Programme
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="programme.html#licence1">Licence 1</a></li>
+                                <li><a class="dropdown-item" href="programme.html#licence2">Licence 2</a></li>
+                                <li><a class="dropdown-item" href="programme.html#licence3">Licence 3</a></li>
+                                <li><a class="dropdown-item" href="programme.html#master">Master</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Personnel
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#enseignants">Enseignants</a></li>
+                                <li><a class="dropdown-item" href="#personnel-atos">Personnel ATOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actualites.html">Actualités et informations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Date et universités -->
+                <div class="p-3 border-top">
+                    <p class="mb-2">Date: <span id="current-date"></span></p>
+                    <h6 class="mb-2">Universités publiques du Burkina Faso:</h6>
+                    <ul class="list-unstyled small">
+                        <li>Université Joseph Ki-Zerbo (UJKZ)</li>
+                        <li>Université Nazi Boni (UNB)</li>
+                        <li>Université Norbert Zongo (UNZ)</li>
+                        <li>Université Thomas Sankara (UTS)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <main class="col-md-9 col-lg-10 py-4">
+                <div class="container">
+                    <h2 class="mb-4">Personnel de l'IFOAD</h2>
+
+                    <!-- Navigation interne -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <nav class="nav nav-pills nav-fill">
+                                <a class="nav-link" href="#enseignants">Enseignants</a>
+                                <a class="nav-link" href="#personnel-atos">Personnel ATOS</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- Enseignants -->
+                    <section id="enseignants" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3>Corps enseignant</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">L'IFOAD dispose d'un corps enseignant qualifié et expérimenté, composé de professeurs, maîtres de conférences et assistants.</p>
+
+                                <h4 class="mt-4">Direction pédagogique</h4>
+                                <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/images/perso.jpg" class="img-fluid rounded-start" alt="Directeur" style="height: 100%; object-fit: cover;">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Pr. Amadou DIALLO</h5>
+                                                        <p class="card-text">Directeur de l'IFOAD</p>
+                                                        <p class="card-text"><small class="text-muted">Professeur Titulaire en Informatique</small></p>
+                                                        <p class="card-text"><small class="text-muted">Spécialité: Intelligence Artificielle</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/images/perso.jpg" class="img-fluid rounded-start" alt="Directeur adjoint" style="height: 100%; object-fit: cover;">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Dr. Fatou SANÉ</h5>
+                                                        <p class="card-text">Directrice adjointe</p>
+                                                        <p class="card-text"><small class="text-muted">Maître de Conférences en Informatique</small></p>
+                                                        <p class="card-text"><small class="text-muted">Spécialité: Génie Logiciel</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Professeurs permanents</h4>
+                                <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Professeur" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Pr. Moussa OUÉDRAOGO</h5>
+                                                <p class="card-text">Professeur Titulaire</p>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Réseaux et Sécurité</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Professeur" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Pr. Aïcha KONATÉ</h5>
+                                                <p class="card-text">Professeure Titulaire</p>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Bases de Données</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Professeur" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Pr. Ibrahim TRAORÉ</h5>
+                                                <p class="card-text">Professeur Titulaire</p>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Systèmes Distribués</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Maîtres de conférences</h4>
+                                <div class="row row-cols-1 row-cols-md-4 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Maître de conférences" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Dr. Salif SAWADOGO</h5>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Génie Logiciel</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Maître de conférences" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Dr. Aminata BARRY</h5>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Intelligence Artificielle</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Maître de conférences" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Dr. Jean KABORÉ</h5>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Développement Web</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Maître de conférences" style="height: 150px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Dr. Sophie OUATTARA</h5>
+                                                <p class="card-text"><small class="text-muted">Spécialité: Systèmes d'Information</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Assistants et ATER</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-primary">
+                                            <tr>
+                                                <th>Nom et Prénom</th>
+                                                <th>Grade</th>
+                                                <th>Spécialité</th>
+                                                <th>Email</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>M. Adama KONÉ</td>
+                                                <td>Assistant</td>
+                                                <td>Programmation</td>
+                                                <td>a.kone@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Mariam BARRO</td>
+                                                <td>Assistante</td>
+                                                <td>Réseaux</td>
+                                                <td>m.barro@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M. Issouf SANOU</td>
+                                                <td>Assistant</td>
+                                                <td>Bases de données</td>
+                                                <td>i.sanou@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Raissa COMPAORÉ</td>
+                                                <td>ATER</td>
+                                                <td>Sécurité informatique</td>
+                                                <td>r.compaore@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M. Boukary ZONGO</td>
+                                                <td>ATER</td>
+                                                <td>Intelligence artificielle</td>
+                                                <td>b.zongo@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Fanta TRAORÉ</td>
+                                                <td>ATER</td>
+                                                <td>Développement mobile</td>
+                                                <td>f.traore@ujkz.bf</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Enseignants vacataires</h4>
+                                <p>L'IFOAD fait également appel à des professionnels du secteur privé et à des enseignants d'autres institutions pour dispenser certains cours spécialisés.</p>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-primary">
+                                            <tr>
+                                                <th>Nom et Prénom</th>
+                                                <th>Institution/Entreprise</th>
+                                                <th>Cours dispensés</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>M. Karim OUÉDRAOGO</td>
+                                                <td>Orange Burkina Faso</td>
+                                                <td>Gestion de projets informatiques</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Awa DIALLO</td>
+                                                <td>Coris Bank International</td>
+                                                <td>Sécurité des systèmes bancaires</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M. Lassané KABORÉ</td>
+                                                <td>Université Thomas Sankara</td>
+                                                <td>Droit de l'informatique</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Bintou SANOGO</td>
+                                                <td>Microsoft Afrique</td>
+                                                <td>Cloud computing</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Personnel ATOS -->
+                    <section id="personnel-atos" class="mb-5">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h3>Personnel Administratif, Technique, Ouvrier et de Service (ATOS)</h3>
+                            </div>
+                            <div class="card-body">
+                                <p class="lead">Le personnel ATOS assure le bon fonctionnement administratif et technique de l'IFOAD.</p>
+
+                                <h4 class="mt-4">Administration</h4>
+                                <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Secrétaire général" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">M. Hamidou OUÉDRAOGO</h5>
+                                                <p class="card-text">Secrétaire Général</p>
+                                                <p class="card-text"><small class="text-muted">Administration et gestion</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Responsable financier" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Mme. Aïssata KONATÉ</h5>
+                                                <p class="card-text">Responsable Financière</p>
+                                                <p class="card-text"><small class="text-muted">Gestion financière et comptabilité</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <img src="/assets/images/perso.jpg" class="card-img-top" alt="Responsable scolarité" style="height: 200px; object-fit: cover;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">M. Souleymane TRAORÉ</h5>
+                                                <p class="card-text">Responsable de la Scolarité</p>
+                                                <p class="card-text"><small class="text-muted">Gestion des inscriptions et des dossiers étudiants</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Service technique</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-success">
+                                            <tr>
+                                                <th>Nom et Prénom</th>
+                                                <th>Fonction</th>
+                                                <th>Responsabilités</th>
+                                                <th>Contact</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>M. Ismaël ZOUNGRANA</td>
+                                                <td>Responsable informatique</td>
+                                                <td>Gestion du parc informatique et des serveurs</td>
+                                                <td>i.zoungrana@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Fatimata SAWADOGO</td>
+                                                <td>Technicienne réseau</td>
+                                                <td>Maintenance du réseau et de la connectivité</td>
+                                                <td>f.sawadogo@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M. Abdoul KABORÉ</td>
+                                                <td>Technicien audiovisuel</td>
+                                                <td>Gestion des équipements audiovisuels et des enregistrements</td>
+                                                <td>a.kabore@ujkz.bf</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Salimata BAMBA</td>
+                                                <td>Administratrice plateforme e-learning</td>
+                                                <td>Gestion de la plateforme d'apprentissage en ligne</td>
+                                                <td>s.bamba@ujkz.bf</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Secrétariat et accueil</h4>
+                                <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/images/perso.jpg" class="img-fluid rounded-start" alt="Secrétaire" style="height: 100%; object-fit: cover;">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Mme. Adjaratou OUÉDRAOGO</h5>
+                                                        <p class="card-text">Secrétaire de direction</p>
+                                                        <p class="card-text"><small class="text-muted">a.ouedraogo@ujkz.bf</small></p>
+                                                        <p class="card-text"><small class="text-muted">Tél: +226 25 30 70 64</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card h-100">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/images/perso.jpg" class="img-fluid rounded-start" alt="Agent d'accueil" style="height: 100%; object-fit: cover;">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">M. Moussa DIALLO</h5>
+                                                        <p class="card-text">Agent d'accueil</p>
+                                                        <p class="card-text"><small class="text-muted">m.diallo@ujkz.bf</small></p>
+                                                        <p class="card-text"><small class="text-muted">Tél: +226 25 30 70 65</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h4 class="mt-4">Personnel de service</h4>
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-success">
+                                            <tr>
+                                                <th>Nom et Prénom</th>
+                                                <th>Fonction</th>
+                                                <th>Service</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>M. Amidou SANOU</td>
+                                                <td>Agent de sécurité</td>
+                                                <td>Sécurité</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Mariam KONATÉ</td>
+                                                <td>Agent d'entretien</td>
+                                                <td>Entretien des locaux</td>
+                                            </tr>
+                                            <tr>
+                                                <td>M. Boureima OUATTARA</td>
+                                                <td>Chauffeur</td>
+                                                <td>Transport</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mme. Awa TRAORÉ</td>
+                                                <td>Bibliothécaire</td>
+                                                <td>Bibliothèque</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <h4 class="mt-4">Organigramme</h4>
+                                <div class="text-center mb-3">
+                                    <img src="/assets/images/perso.jpg" alt="Organigramme" class="img-fluid border rounded" style="max-width: 100%;">
+                                </div>
+                                <div class="text-end mt-3">
+                                    <a href="#" class="btn btn-outline-success">Télécharger l'organigramme (PDF)</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>IFOAD</h5>
+                    <p>Institut de Formation Ouverte A Distance<br>Université Joseph Ki-Zerbo</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-white">Accueil</a></li>
+                        <li><a href="formation.html" class="text-white">Formations</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <address>
+                        <p>Adresse: 03 BP 7021 Ouagadougou 03, Burkina Faso</p>
+                        <p>Email: ifoad@ujkz.bf</p>
+                        <p>Téléphone: +226 25 30 70 64</p>
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 IFOAD - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <script>
+        // Activer le scrollspy pour la navigation interne
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ajouter la classe active au lien correspondant à la section visible
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', function() {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

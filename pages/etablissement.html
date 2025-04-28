@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFOAD - Établissements UJKZ</title>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body class="container">
+    <!-- En-tête avec logos -->
+    <header class="container-fluid py-2 bg-light">
+        <div class="row align-items-center">
+            <div class="col-4 col-md-3">
+                <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 80px;">
+            </div>
+            <div class="col-4 col-md-6 text-center">
+                <h1 class="d-none d-md-block">Institut de Formation Ouverte A Distance</h1>
+                <h3 class="d-md-none">IFOAD</h3>
+            </div>
+            <div class="col-4 col-md-3 text-end">
+                <img src="../assets/images/logo-ujkz.jpg" alt="Logo UJKZ" class="img-fluid" style="max-height: 80px;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu horizontal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Historique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#ujkz">UJKZ</a></li>
+                            <li><a class="dropdown-item" href="#ifoad">IFOAD</a></li>
+                            <li><a class="dropdown-item" href="#licence-sia">Licence SIA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Formation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="formation.html#licence">Licence</a></li>
+                            <li><a class="dropdown-item" href="formation.html#master">Master</a></li>
+                            <li><a class="dropdown-item" href="formation.html#debouches">Débouchés</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partenaires.html">Partenaires</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Documentation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./documentation.html#licence">Licence</a></li>
+                            <li><a class="dropdown-item" href="./documentation.html#master">Master</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Établissement UJKZ
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./etablissement.html#sea">SEA</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#ibam">IBAM</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#issp">ISSP</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#igeed">IGEED</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#sh">SH</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#lac">LAC</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#svt">SVT</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#issdh">ISSDH</a></li>
+                            <li><a class="dropdown-item" href="./etablissement.html#sds">SDS</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traitement.html">Traitement</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Menu vertical -->
+            <div class="col-md-3 col-lg-2 bg-light p-0">
+                <nav class="navbar navbar-light bg-light flex-column align-items-stretch p-3">
+                    <ul class="navbar-nav flex-column w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admission.html">Admission</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Programme
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="programme.html#licence1">Licence 1</a></li>
+                                <li><a class="dropdown-item" href="programme.html#licence2">Licence 2</a></li>
+                                <li><a class="dropdown-item" href="programme.html#licence3">Licence 3</a></li>
+                                <li><a class="dropdown-item" href="programme.html#master">Master</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                Personnel
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="personnel.html#enseignants">Enseignants</a></li>
+                                <li><a class="dropdown-item" href="personnel.html#personnel-atos">Personnel ATOS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="actualites.html">Actualités et informations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Date et universités -->
+                <div class="p-3 border-top">
+                    <p class="mb-2">Date: <span id="current-date"></span></p>
+                    <h6 class="mb-2">Universités publiques du Burkina Faso:</h6>
+                    <ul class="list-unstyled small">
+                        <li>Université Joseph Ki-Zerbo (UJKZ)</li>
+                        <li>Université Nazi Boni (UNB)</li>
+                        <li>Université Norbert Zongo (UNZ)</li>
+                        <li>Université Thomas Sankara (UTS)</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Contenu principal -->
+            <main class="col-md-9 col-lg-10 py-4">
+                <div class="container">
+                    <h2 class="mb-4">Établissements de l'Université Joseph Ki-Zerbo</h2>
+
+                    <p class="lead mb-4">L'Université Joseph Ki-Zerbo (UJKZ) est composée de plusieurs unités de formation et de recherche (UFR) et instituts qui couvrent différents domaines d'enseignement et de recherche.</p>
+
+                    <!-- Navigation interne -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <nav class="nav nav-pills nav-fill flex-wrap">
+                                <a class="nav-link" href="#sea">SEA</a>
+                                <a class="nav-link" href="#ibam">IBAM</a>
+                                <a class="nav-link" href="#issp">ISSP</a>
+                                <a class="nav-link" href="#igeed">IGEED</a>
+                                <a class="nav-link" href="#sh">SH</a>
+                                <a class="nav-link" href="#lac">LAC</a>
+                                <a class="nav-link" href="#svt">SVT</a>
+                                <a class="nav-link" href="#issdh">ISSDH</a>
+                                <a class="nav-link" href="#sds">SDS</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <!-- SEA -->
+                    <section id="sea" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3>UFR Sciences Exactes et Appliquées (SEA)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'UFR Sciences Exactes et Appliquées (SEA) est dédiée à l'enseignement et à la recherche dans les domaines des mathématiques, de la physique, de la chimie et de l'informatique.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Mathématiques</li>
+                                            <li>Physique</li>
+                                            <li>Chimie</li>
+                                            <li>Informatique</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Licence en Mathématiques</li>
+                                            <li>Licence en Physique</li>
+                                            <li>Licence en Chimie</li>
+                                            <li>Licence en Informatique</li>
+                                            <li>Master en Mathématiques Appliquées</li>
+                                            <li>Master en Physique</li>
+                                            <li>Master en Chimie</li>
+                                            <li>Master en Informatique</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="UFR SEA" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: sea@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 64<br>
+                                                Site web: <a href="http://www.sea.ujkz.bf" target="_blank">www.sea.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- IBAM -->
+                    <section id="ibam" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h3>Institut Burkinabè des Arts et Métiers (IBAM)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'Institut Burkinabè des Arts et Métiers (IBAM) est spécialisé dans la formation aux métiers des arts, de la communication et de la gestion.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Arts et Communication</li>
+                                            <li>Gestion</li>
+                                            <li>Métiers du Livre et du Patrimoine</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Licence en Communication</li>
+                                            <li>Licence en Arts Plastiques</li>
+                                            <li>Licence en Gestion</li>
+                                            <li>Licence en Bibliothéconomie</li>
+                                            <li>Master en Communication des Organisations</li>
+                                            <li>Master en Gestion du Patrimoine Culturel</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="IBAM" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: ibam@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 65<br>
+                                                Site web: <a href="http://www.ibam.ujkz.bf" target="_blank">www.ibam.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ISSP -->
+                    <section id="issp" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h3>Institut Supérieur des Sciences de la Population (ISSP)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'Institut Supérieur des Sciences de la Population (ISSP) est dédié à la recherche et à la formation dans le domaine des sciences de la population et du développement.</p>
+
+                                        <h5>Domaines de recherche</h5>
+                                        <ul>
+                                            <li>Démographie</li>
+                                            <li>Santé de la reproduction</li>
+                                            <li>Migration</li>
+                                            <li>Urbanisation</li>
+                                            <li>Pauvreté et développement</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Master en Démographie</li>
+                                            <li>Master en Population et Santé</li>
+                                            <li>Doctorat en Sciences de la Population</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="ISSP" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: issp@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 66<br>
+                                                Site web: <a href="http://www.issp.ujkz.bf" target="_blank">www.issp.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- IGEED -->
+                    <section id="igeed" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-warning">
+                                <h3>Institut de Gestion de l'Environnement et de Développement Durable (IGEED)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'Institut de Gestion de l'Environnement et de Développement Durable (IGEED) forme des spécialistes dans les domaines de l'environnement et du développement durable.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Gestion de l'Environnement</li>
+                                            <li>Développement Durable</li>
+                                            <li>Changement Climatique</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Licence en Gestion de l'Environnement</li>
+                                            <li>Master en Développement Durable</li>
+                                            <li>Master en Changement Climatique et Développement</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="IGEED" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: igeed@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 67<br>
+                                                Site web: <a href="http://www.igeed.ujkz.bf" target="_blank">www.igeed.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SH -->
+                    <section id="sh" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-danger text-white">
+                                <h3>UFR Sciences Humaines (SH)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'UFR Sciences Humaines (SH) est dédiée à l'enseignement et à la recherche dans les domaines de l'histoire, de la géographie, de la sociologie et de la philosophie.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Histoire et Archéologie</li>
+                                            <li>Géographie</li>
+                                            <li>Sociologie</li>
+                                            <li>Philosophie</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Licence en Histoire</li>
+                                            <li>Licence en Géographie</li>
+                                            <li>Licence en Sociologie</li>
+                                            <li>Licence en Philosophie</li>
+                                            <li>Master en Histoire</li>
+                                            <li>Master en Géographie</li>
+                                            <li>Master en Sociologie</li>
+                                            <li>Master en Philosophie</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="UFR SH" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: sh@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 68<br>
+                                                Site web: <a href="http://www.sh.ujkz.bf" target="_blank">www.sh.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- LAC -->
+                    <section id="lac" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h3>UFR Langues, Arts et Communication (LAC)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'UFR Langues, Arts et Communication (LAC) est spécialisée dans l'enseignement des langues, des arts et de la communication.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Études Anglaises</li>
+                                            <li>Études Françaises</li>
+                                            <li>Linguistique</li>
+                                            <li>Arts du Spectacle</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Licence en Anglais</li>
+                                            <li>Licence en Français</li>
+                                            <li>Licence en Linguistique</li>
+                                            <li>Licence en Arts du Spectacle</li>
+                                            <li>Master en Traduction</li>
+                                            <li>Master en Littérature</li>
+                                            <li>Master en Linguistique</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="UFR LAC" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: lac@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 69<br>
+                                                Site web: <a href="http://www.lac.ujkz.bf" target="_blank">www.lac.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SVT -->
+                    <section id="svt" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-success text-white">
+                                <h3>UFR Sciences de la Vie et de la Terre (SVT)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'UFR Sciences de la Vie et de la Terre (SVT) est dédiée à l'enseignement et à la recherche dans les domaines de la biologie, de la géologie et des sciences environnementales.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Biologie</li>
+                                            <li>Géologie</li>
+                                            <li>Sciences Environnementales</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Licence en Biologie</li>
+                                            <li>Licence en Géologie</li>
+                                            <li>Licence en Sciences Environnementales</li>
+                                            <li>Master en Biologie</li>
+                                            <li>Master en Géologie</li>
+                                            <li>Master en Gestion des Ressources Naturelles</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="UFR SVT" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: svt@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 70<br>
+                                                Site web: <a href="http://www.svt.ujkz.bf" target="_blank">www.svt.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ISSDH -->
+                    <section id="issdh" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h3>Institut des Sciences des Sociétés et du Développement Humain (ISSDH)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'Institut des Sciences des Sociétés et du Développement Humain (ISSDH) est spécialisé dans la recherche et la formation en sciences sociales et développement humain.</p>
+
+                                        <h5>Domaines de recherche</h5>
+                                        <ul>
+                                            <li>Anthropologie</li>
+                                            <li>Développement rural</li>
+                                            <li>Économie sociale</li>
+                                            <li>Études de genre</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Master en Anthropologie</li>
+                                            <li>Master en Développement Rural</li>
+                                            <li>Master en Études de Genre</li>
+                                            <li>Doctorat en Sciences Sociales</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="ISSDH" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: issdh@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 71<br>
+                                                Site web: <a href="http://www.issdh.ujkz.bf" target="_blank">www.issdh.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- SDS -->
+                    <section id="sds" class="mb-4">
+                        <div class="card">
+                            <div class="card-header bg-danger text-white">
+                                <h3>UFR Sciences de la Santé (SDS)</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p>L'UFR Sciences de la Santé (SDS) est dédiée à la formation des professionnels de la santé et à la recherche médicale.</p>
+
+                                        <h5>Départements</h5>
+                                        <ul>
+                                            <li>Médecine</li>
+                                            <li>Pharmacie</li>
+                                            <li>Odontostomatologie</li>
+                                            <li>Santé Publique</li>
+                                        </ul>
+
+                                        <h5>Formations</h5>
+                                        <ul>
+                                            <li>Doctorat en Médecine</li>
+                                            <li>Doctorat en Pharmacie</li>
+                                            <li>Licence en Sciences Infirmières</li>
+                                            <li>Master en Santé Publique</li>
+                                            <li>Spécialités médicales (DES)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="/assets/images/img.png" alt="UFR SDS" class="img-fluid rounded mb-3">
+                                        <div class="card bg-light">
+                                            <div class="card-body">
+                                                <h5>Contact</h5>
+                                                <p>Email: sds@ujkz.bf<br>
+                                                Téléphone: +226 25 30 70 72<br>
+                                                Site web: <a href="http://www.sds.ujkz.bf" target="_blank">www.sds.ujkz.bf</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>IFOAD</h5>
+                    <p>Institut de Formation Ouverte A Distance<br>Université Joseph Ki-Zerbo</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-white">Accueil</a></li>
+                        <li><a href="formation.html" class="text-white">Formations</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <address>
+                        <p>Adresse: 03 BP 7021 Ouagadougou 03, Burkina Faso</p>
+                        <p>Email: ifoad@ujkz.bf</p>
+                        <p>Téléphone: +226 25 30 70 64</p>
+                    </address>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 IFOAD - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    <script>
+        // Activer le scrollspy pour la navigation interne
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ajouter la classe active au lien correspondant à la section visible
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', function() {
+                let current = '';
+
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 200)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + current) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

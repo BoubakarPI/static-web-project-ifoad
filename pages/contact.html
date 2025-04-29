@@ -11,7 +11,7 @@
 </head>
 <body class="container">
 <!-- En-tête avec logos -->
-<header class="container-fluid py-2 bg-light">
+<header class="d-md-block d-none container-fluid py-2 bg-light">
     <div class="row align-items-center">
         <div class="col-4 col-md-3">
             <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 80px;">
@@ -42,9 +42,9 @@
                         Historique
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#ujkz">UJKZ</a></li>
-                        <li><a class="dropdown-item" href="#ifoad">IFOAD</a></li>
-                        <li><a class="dropdown-item" href="#licence-sia">Licence SIA</a></li>
+                        <li><a class="dropdown-item" href="./historique.html#ujkz">UJKZ</a></li>
+                        <li><a class="dropdown-item" href="./historique.html#ifoad">IFOAD</a></li>
+                        <li><a class="dropdown-item" href="./historique.html#licence-sia">Licence SIA</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -89,6 +89,9 @@
                     <a class="nav-link" href="traitement.html">Traitement</a>
                 </li>
             </ul>
+        </div>
+        <div class="d-md-none rounded bg-light p-2">
+            <img src="../assets/images/logo-ifoad.jpg" alt="Logo IFOAD" class="img-fluid" style="max-height: 30px;">
         </div>
     </div>
 </nav>
@@ -171,7 +174,7 @@
                 <p>+226 25 30 70 64</p>
 
                 <h5>Email</h5>
-                <p>ifoad@ujkz.bf</p>
+                <p>contact@ifoad-ujkz.net</p>
 
                 <h5>Horaires d'ouverture</h5>
                 <p>Du lundi au vendredi: 8h00 - 16h00<br>
@@ -285,7 +288,7 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                   <div class="accordion-body">
-                    Une fois inscrit, vous recevrez un identifiant et un mot de passe pour accéder à la plateforme d'apprentissage en ligne. Vous pourrez y trouver tous vos cours, exercices et ressources pédagogiques. En cas de problème d'accès, veuillez contacter le support technique à l'adresse support.ifoad@ujkz.bf.
+                    Une fois inscrit, vous recevrez un identifiant et un mot de passe pour accéder à la plateforme d'apprentissage en ligne. Vous pourrez y trouver tous vos cours, exercices et ressources pédagogiques. En cas de problème d'accès, veuillez contacter le support technique à l'adresse contact@ifoad-ujkz.net.
                   </div>
                 </div>
               </div>
@@ -298,7 +301,7 @@
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                   <div class="accordion-body">
-                    Les formations dispensées à l'IFOAD ouvrent de nombreuses perspectives professionnelles dans les domaines de l'informatique, de la gestion et de l'administration. Vous pouvez consulter la page <a href="formation/debouches.html">Débouchés</a> pour plus d'informations sur les opportunités de carrière après vos études.
+                    Les formations dispensées à l'IFOAD ouvrent de nombreuses perspectives professionnelles dans les domaines de l'informatique, de la gestion et de l'administration. Vous pouvez consulter la page <a href="./formation.html#debouches">Débouchés</a> pour plus d'informations sur les opportunités de carrière après vos études.
                   </div>
                 </div>
               </div>
@@ -321,15 +324,15 @@
         <h5>Liens rapides</h5>
         <ul class="list-unstyled">
           <li><a href="../index.html" class="text-white">Accueil</a></li>
-          <li><a href="formation/licence.html" class="text-white">Formations</a></li>
-          <li><a href="contact.html" class="text-white">Contact</a></li>
+          <li><a href="./formation.html" class="text-white">Formations</a></li>
+          <li><a href="./contact.html" class="text-white">Contact</a></li>
         </ul>
       </div>
       <div class="col-md-4">
         <h5>Contact</h5>
         <address>
           <p>Adresse: 03 BP 7021 Ouagadougou 03, Burkina Faso</p>
-          <p>Email: ifoad@ujkz.bf</p>
+          <p>Email: contact@ifoad-ujkz.net</p>
           <p>Téléphone: +226 25 30 70 64</p>
         </address>
       </div>
@@ -342,7 +345,7 @@
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/js/scripts.js"></script>
 
 <!-- Script pour afficher la date -->
